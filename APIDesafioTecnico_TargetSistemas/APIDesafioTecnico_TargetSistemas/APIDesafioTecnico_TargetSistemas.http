@@ -1,0 +1,6 @@
+@APIDesafioTecnico_TargetSistemas_HostAddress = http://localhost:5170
+
+GET {{APIDesafioTecnico_TargetSistemas_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
