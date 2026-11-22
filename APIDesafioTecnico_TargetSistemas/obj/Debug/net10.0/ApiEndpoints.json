@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "APIDesafioTecnico_TargetSistemas.Controllers.ComissaoController",
+    "Method": "ObterComissaoPorVendedor",
+    "RelativePath": "api/comissao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vendas",
+        "Type": "System.Collections.Generic.List\u00601[[APIDesafioTecnico_TargetSistemas.DTOs.VendaCreateDTO, APIDesafioTecnico_TargetSistemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDesafioTecnico_TargetSistemas.Controllers.EstoqueController",
+    "Method": "ObterProdutos",
+    "RelativePath": "api/estoque",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDesafioTecnico_TargetSistemas.Controllers.EstoqueController",
+    "Method": "MovimentacaoEstoque",
+    "RelativePath": "api/estoque",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "movimentacaoCreateDTO",
+        "Type": "APIDesafioTecnico_TargetSistemas.DTOs.MovimentacaoCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDesafioTecnico_TargetSistemas.Controllers.FinanceiroController",
+    "Method": "CalcularJuros",
+    "RelativePath": "api/financeiro/calcular-juros",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "financeiroCreateDTO",
+        "Type": "APIDesafioTecnico_TargetSistemas.DTOs.FinanceiroCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "APIDesafioTecnico_TargetSistemas.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[APIDesafioTecnico_TargetSistemas.WeatherForecast, APIDesafioTecnico_TargetSistemas, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
