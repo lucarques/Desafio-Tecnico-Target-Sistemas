@@ -15,7 +15,7 @@ namespace APIDesafioTecnico_TargetSistemas.Controllers
             _comissaoService = comissaoService;
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult ObterComissaoPorVendedor([FromBody] List<VendaCreateDTO> vendas)
         {
             var comissoes = _comissaoService.ObterComissaoPorVendedor(vendas);
